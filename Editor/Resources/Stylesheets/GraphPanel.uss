@@ -1,0 +1,41 @@
+﻿Toolbar > ObjectField > Label {
+    min-width: 15px;
+}
+
+.titleEditor {
+    height: 25px;
+    position: absolute;
+    margin: 5px 0px 5px 6px
+}
+
+    .titleEditor #unity-text-input {
+        background-color: #393939;
+        color: #C1C1C1;
+        border-width: 0px;
+    }
+
+
+.nodeElementDataField {
+    padding: 3px;
+    margin: 1px 0px 0px 0px;
+    justify-content: space-between;
+    background-color: rgba(46, 46, 46, 0.8);
+}
+
+    .nodeElementDataField > .unity-base-field__label {
+        min-width: 0px;
+        margin-right: 5px;
+    }
+
+    .nodeElementDataField > .unity-base-field__input {
+        min-width: 100px;
+        max-width: 100px;
+    }
+
+    .nodeElementDataField > TextInput {
+        background-color: rgba(63, 63, 63, 0.8);
+    }
+
+.hidden {
+    display: none;
+}

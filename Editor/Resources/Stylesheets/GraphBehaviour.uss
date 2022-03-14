@@ -1,0 +1,9 @@
+﻿#buttonsContainer {
+    align-self: center;
+    margin-top: 15px;
+}
+
+#openGraphButton {
+    width: 150px;
+    color: #E3E3E3;
+}

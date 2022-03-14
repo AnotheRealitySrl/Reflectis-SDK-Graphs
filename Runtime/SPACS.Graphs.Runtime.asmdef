@@ -1,0 +1,16 @@
+{
+    "name": "SPACS.Graphs.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6621723ab2f3cff4a8be0e8c1642af94"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
