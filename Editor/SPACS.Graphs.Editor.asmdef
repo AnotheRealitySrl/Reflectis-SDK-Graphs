@@ -2,7 +2,7 @@
     "name": "SPACS.Graphs.Editor",
     "rootNamespace": "",
     "references": [
-        "SPACS.Graphs.Runtime"
+        "GUID:23c385269eb2e5044a0a2686aeeaf762"
     ],
     "includePlatforms": [
         "Editor"
