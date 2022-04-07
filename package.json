@@ -2,11 +2,8 @@
   "name": "com.anotherealitysrl.spacs-graphs",
   "displayName": "SPACS-Graphs",
   "version": "0.0.1",
-  "unity": "2020.3",
+  "unity": "2020.1",
   "description": "SPACS Graphs module",
-  "dependencies": {
-    "com.anotherealitysrl.spacs-utilities": "https://github.com/AnotheRealitySrl/SPACS-Utilities"
-  },
   "keywords": [
     "unity"
   ],
