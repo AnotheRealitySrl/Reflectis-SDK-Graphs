@@ -1,4 +1,4 @@
-﻿using SPACS.Utilities;
+﻿using SPACS.Toolkit.Extensions.Runtime;
 
 using System;
 using System.Collections.Generic;
@@ -193,7 +193,7 @@ namespace SPACS.Graphs
             Type nodeType = node.GetType();
             Type containerInterface = typeof(IContainer<>).MakeGenericType(nodeType);
 
-            Type[] availableContainerTypes = ReflectionUtils.GetAssignableClasses(typeof(TNodeContainer), containerInterface).ToArray();
+            Type[] availableContainerTypes = ReflectionExtensions.GetAssignableClasses(typeof(TNodeContainer), containerInterface).ToArray();
             int containersCount = availableContainerTypes.Length;
 
             if (containersCount == 0)
