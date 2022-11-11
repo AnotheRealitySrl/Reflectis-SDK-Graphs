@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEditor;
 #endif
 
-namespace SPACS.Graphs
+namespace SPACS.PLG.Graphs
 {
 
     ///////////////////////////////////////////////////////////////////////////

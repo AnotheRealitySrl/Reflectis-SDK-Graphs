@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace SPACS.Graphs
+namespace SPACS.PLG.Graphs
 {
 
     ///////////////////////////////////////////////////////////////////////////

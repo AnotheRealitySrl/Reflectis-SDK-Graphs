@@ -2,7 +2,7 @@
 using UnityEditor.Callbacks;
 using UnityEngine;
 
-namespace SPACS.Graphs.Editor
+namespace SPACS.PLG.Graphs.Editor
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

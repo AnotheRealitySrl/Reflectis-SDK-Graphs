@@ -8,7 +8,7 @@ using System.Reflection;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace SPACS.Graphs
+namespace SPACS.PLG.Graphs
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

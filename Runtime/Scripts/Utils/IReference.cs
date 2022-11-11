@@ -1,5 +1,5 @@
 ﻿
-namespace SPACS.Graphs
+namespace SPACS.PLG.Graphs
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>Container interface</summary>

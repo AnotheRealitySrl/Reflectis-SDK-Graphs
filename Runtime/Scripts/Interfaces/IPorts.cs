@@ -1,4 +1,4 @@
-namespace SPACS.Graphs
+namespace SPACS.PLG.Graphs
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary> Interface for input ports that allow only one connection </summary>

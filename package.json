@@ -1,6 +1,6 @@
 {
-  "name": "com.anotherealitysrl.spacs-graphs",
-  "displayName": "SPACS-Graphs",
+  "name": "com.anotherealitysrl.spacs-plg-graphs",
+  "displayName": "SPACS-PLG-Graphs",
   "version": "1.0.0",
   "unity": "2020.1",
   "description": "SPACS Graphs module",
