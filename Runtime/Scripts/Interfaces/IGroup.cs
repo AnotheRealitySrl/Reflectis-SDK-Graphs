@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace SPACS.Graphs
+namespace SPACS.PLG.Graphs
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

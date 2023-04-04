@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace SPACS.Graphs.Editor
+namespace SPACS.PLG.Graphs.Editor
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

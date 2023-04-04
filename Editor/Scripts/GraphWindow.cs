@@ -7,7 +7,7 @@ using UnityEditor.Experimental.SceneManagement;
 using UnityEditor.SceneManagement;
 using Object = UnityEngine.Object;
 
-namespace SPACS.Graphs.Editor
+namespace SPACS.PLG.Graphs.Editor
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

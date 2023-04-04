@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SPACS.Graphs
+namespace SPACS.PLG.Graphs
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

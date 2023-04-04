@@ -4,7 +4,7 @@ using UnityEngine.UIElements;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
 
-namespace SPACS.Graphs.Editor
+namespace SPACS.PLG.Graphs.Editor
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

@@ -1,11 +1,11 @@
-﻿using SPACS.Utilities;
+﻿using SPACS.SDK.Extensions;
 
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace SPACS.Graphs
+namespace SPACS.PLG.Graphs
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>
@@ -193,7 +193,7 @@ namespace SPACS.Graphs
             Type nodeType = node.GetType();
             Type containerInterface = typeof(IContainer<>).MakeGenericType(nodeType);
 
-            Type[] availableContainerTypes = ReflectionUtils.GetAssignableClasses(typeof(TNodeContainer), containerInterface).ToArray();
+            Type[] availableContainerTypes = ReflectionExtensions.GetAssignableClasses(typeof(TNodeContainer), containerInterface).ToArray();
             int containersCount = availableContainerTypes.Length;
 
             if (containersCount == 0)

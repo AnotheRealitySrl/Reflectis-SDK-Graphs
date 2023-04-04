@@ -1,4 +1,4 @@
-﻿using SPACS.Utilities;
+﻿using SPACS.SDK.Extensions;
 
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Reflection;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace SPACS.Graphs
+namespace SPACS.PLG.Graphs
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>
@@ -68,7 +68,7 @@ namespace SPACS.Graphs
                 if (ports == null)
                 {
                     ports = new List<Port>();
-                    foreach (FieldInfo field in ReflectionUtils.GetSerializedFields(GetType()))
+                    foreach (FieldInfo field in ReflectionExtensions.GetSerializedFields(GetType()))
                     {
                         if (field.FieldType.IsSubclassOf(typeof(Port)))
                         {
@@ -109,7 +109,7 @@ namespace SPACS.Graphs
                 if (graphFields == null)
                 {
                     graphFields = new List<FieldInfo>();
-                    foreach (FieldInfo field in ReflectionUtils.GetSerializedFields(GetType()))
+                    foreach (FieldInfo field in ReflectionExtensions.GetSerializedFields(GetType()))
                     {
                         NodeData dataAttribute = field.GetCustomAttribute<NodeData>();
                         if (dataAttribute != null)
