@@ -1,9 +1,8 @@
 {
-    "name": "SPACS.PLG.Graphs.Runtime",
+    "name": "SPACS.PLG.Graphs",
     "rootNamespace": "",
     "references": [
-        "GUID:6621723ab2f3cff4a8be0e8c1642af94",
-        "GUID:ccca149858d47314ca2c1b4f127c645e"
+        "GUID:6621723ab2f3cff4a8be0e8c1642af94"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
