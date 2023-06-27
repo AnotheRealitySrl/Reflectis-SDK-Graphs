@@ -1,20 +1,11 @@
-# SPACS-Graphs
+# SPACS-PLG-Graphs
 
 ## How to install
 
-### Using Unity Package Manager
+Import from Git URL using Unity Package Manager: `https://github.com/AnotheRealitySrl/SPACS-PLG-Graphs.git`
 
-Import from Git URL with Unity Package Manager: `https://github.com/AnotheRealitySrl/SPACS-Graphs.git`
+Alternatively, if you need to modify the content of the package, import it as a submodule under the `Packages` folder.
 
-The following dependencies need to be imported as well:
+Dependencies:
 
-- `https://github.com/AnotheRealitySrl/SPACS-Utilities.git`
-
-### Edit project manifest
-
-In alternative of using Unity Package Manager, add to the manifest.json the following dependencies:
-
-```
-"com.anotherealitysrl.spacs-utilities": "https://github.com/AnotheRealitySrl/SPACS-Utilities.git",
-"com.anotherealitysrl.spacs-graph": "https://github.com/AnotheRealitySrl/SPACS-Graphs.git"
-```
+- `https://github.com/AnotheRealitySrl/SPACS-Core.git`
