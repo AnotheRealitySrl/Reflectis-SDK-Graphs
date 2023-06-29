@@ -1,5 +1,17 @@
 # Release notes
 
+## Unreleased
+
+### Removed
+
+- Interactable object interface and base class
+- Scriptable actions
+
+### Added
+
+- Documentation
+- Editor script for linking documentation of SPACS packages in regenerated .csproj projects
+
 ## v2.0.0
 
 ### Changed:

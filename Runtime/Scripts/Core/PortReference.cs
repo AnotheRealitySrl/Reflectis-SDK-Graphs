@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+
 using UnityEngine;
 
 namespace SPACS.PLG.Graphs
@@ -12,7 +13,7 @@ namespace SPACS.PLG.Graphs
     [Serializable]
     public abstract class PortReference<NodeReference> : IPortReference
         where NodeReference : class, IContainer<Node>
-    { 
+    {
 
         [SerializeReference]
         private NodeReference nodeContainer;
@@ -23,8 +24,8 @@ namespace SPACS.PLG.Graphs
         ///////////////////////////////////////////////////////////////////////////
         [NonSerialized]
         private Port port;
-        
-        
+
+
         ///////////////////////////////////////////////////////////////////////////
         /// <summary>The container of the node having this port</summary>
         public IContainer<Node> NodeContainer
