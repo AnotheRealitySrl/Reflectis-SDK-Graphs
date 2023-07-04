@@ -3,7 +3,7 @@ using UnityEditor.Callbacks;
 
 using UnityEngine;
 
-namespace SPACS.PLG.Graphs.Editor
+namespace Reflectis.PLG.Graphs.Editor
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

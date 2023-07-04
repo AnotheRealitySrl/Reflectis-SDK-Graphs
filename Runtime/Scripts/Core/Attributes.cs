@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SPACS.PLG.Graphs
+namespace Reflectis.PLG.Graphs
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

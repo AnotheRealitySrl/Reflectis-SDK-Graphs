@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace SPACS.PLG.Graphs
+namespace Reflectis.PLG.Graphs
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEditor;
 #endif
 
-namespace SPACS.PLG.Graphs
+namespace Reflectis.PLG.Graphs
 {
 
     ///////////////////////////////////////////////////////////////////////////

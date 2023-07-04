@@ -1,5 +1,5 @@
 ﻿
-namespace SPACS.PLG.Graphs
+namespace Reflectis.PLG.Graphs
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>Container interface</summary>

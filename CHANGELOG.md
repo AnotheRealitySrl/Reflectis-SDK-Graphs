@@ -10,13 +10,13 @@
 ### Added
 
 - Documentation
-- Editor script for linking documentation of SPACS packages in regenerated .csproj projects
+- Editor script for linking documentation of Reflectis packages in regenerated .csproj projects
 
 ## v2.0.0
 
 ### Changed:
 
-- Migrate to SPACS systems framework
+- Migrate to Reflectis systems framework
 
 ---
 

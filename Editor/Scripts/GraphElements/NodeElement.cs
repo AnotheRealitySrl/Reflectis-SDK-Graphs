@@ -14,7 +14,7 @@ using GraphViewPort = UnityEditor.Experimental.GraphView.Port;
 using Object = UnityEngine.Object;
 
 
-namespace SPACS.PLG.Graphs.Editor
+namespace Reflectis.PLG.Graphs.Editor
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>
