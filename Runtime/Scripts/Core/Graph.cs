@@ -1,4 +1,4 @@
-﻿using Reflectis.SDK.Utilities.Extensions;
+﻿using Reflectis.SDK.Utilities;
 
 using System;
 using System.Collections.Generic;
@@ -194,7 +194,7 @@ namespace Reflectis.PLG.Graphs
             Type nodeType = node.GetType();
             Type containerInterface = typeof(IContainer<>).MakeGenericType(nodeType);
 
-            Type[] availableContainerTypes = ReflectionExtensions.GetAssignableClasses(typeof(TNodeContainer), containerInterface).ToArray();
+            Type[] availableContainerTypes = ReflectionUtilities.GetAssignableClasses(typeof(TNodeContainer), containerInterface).ToArray();
             int containersCount = availableContainerTypes.Length;
 
             if (containersCount == 0)

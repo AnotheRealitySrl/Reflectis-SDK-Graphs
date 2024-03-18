@@ -1,4 +1,4 @@
-﻿using Reflectis.SDK.Utilities.Extensions;
+﻿using Reflectis.SDK.Utilities;
 
 using System;
 using System.Collections.Generic;
@@ -68,7 +68,7 @@ namespace Reflectis.PLG.Graphs
                 if (ports == null)
                 {
                     ports = new List<Port>();
-                    foreach (FieldInfo field in ReflectionExtensions.GetSerializedFields(GetType()))
+                    foreach (FieldInfo field in ReflectionUtilities.GetSerializedFields(GetType()))
                     {
                         if (field.FieldType.IsSubclassOf(typeof(Port)))
                         {
@@ -109,7 +109,7 @@ namespace Reflectis.PLG.Graphs
                 if (graphFields == null)
                 {
                     graphFields = new List<FieldInfo>();
-                    foreach (FieldInfo field in ReflectionExtensions.GetSerializedFields(GetType()))
+                    foreach (FieldInfo field in ReflectionUtilities.GetSerializedFields(GetType()))
                     {
                         NodeData dataAttribute = field.GetCustomAttribute<NodeData>();
                         if (dataAttribute != null)
