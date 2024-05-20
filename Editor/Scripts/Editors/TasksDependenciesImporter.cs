@@ -8,15 +8,14 @@ using UnityEngine;
 [InitializeOnLoad]
 public static class TasksDependenciesImporter
 {
-    /*private static readonly string[] gitUrl = {"https://github.com/AnotheRealitySrl/Reflectis-PLG-Tasks.git", "https://github.com/AnotheRealitySrl/Reflectis-PLG-Graphs.git" }; //dependencies packages url
-    private static readonly string[] packageName = { "com.anotherealitysrl.reflectis-plg-tasks", "com.anotherealitysrl.reflectis-plg-graphs"}; //depenmdencies packages name*/
-
     private static readonly (string gitUrl, string packageName)[] packageDependencies = new (string gitUrl, string packageName)[]
     {
         ("https://github.com/AnotheRealitySrl/Reflectis-PLG-TasksReflectis.git", "com.anotherealitysrl.reflectis-plg-tasksreflectis"),
         ("https://github.com/AnotheRealitySrl/Reflectis-PLG-Tasks.git", "com.anotherealitysrl.reflectis-plg-tasks")
         //("https://github.com/AnotheRealitySrl/Reflectis-PLG-Graphs.git", "com.anotherealitysrl.reflectis-plg-graphs"),
     };
+
+    private static readonly string currentPackage = "com.anotherealitysrl.reflectis-plg-graphs"; //if this package 
 
     static TasksDependenciesImporter()
     {
@@ -25,7 +24,16 @@ public static class TasksDependenciesImporter
 
     private static void OnRegisteredPackages(PackageRegistrationEventArgs args)
     {
-        ShowDependenciesPopup();
+        if (args.added.Count != 0)
+        {
+            foreach (var addedPackage in args.added)
+            {
+                if (addedPackage.name == "com.anotherealitysrl.reflectis-plg-graphs")
+                {
+                    ShowDependenciesPopup();
+                }
+            }
+        }
     }
 
     private static void ShowDependenciesPopup()
