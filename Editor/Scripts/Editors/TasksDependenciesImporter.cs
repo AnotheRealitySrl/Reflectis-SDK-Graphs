@@ -6,22 +6,35 @@ using UnityEditor.PackageManager.Requests;
 using UnityEngine;
 
 [InitializeOnLoad]
-public static class TasksDependenciesImporter
+public class TasksDependenciesImporter : EditorWindow //remove editor window if you don't want the button
 {
     private static readonly (string gitUrl, string packageName)[] packageDependencies = new (string gitUrl, string packageName)[]
     {
         ("https://github.com/AnotheRealitySrl/Reflectis-PLG-TasksReflectis.git", "com.anotherealitysrl.reflectis-plg-tasksreflectis"),
-        ("https://github.com/AnotheRealitySrl/Reflectis-PLG-Tasks.git", "com.anotherealitysrl.reflectis-plg-tasks")
-        //("https://github.com/AnotheRealitySrl/Reflectis-PLG-Graphs.git", "com.anotherealitysrl.reflectis-plg-graphs"),
+        ("https://github.com/AnotheRealitySrl/Reflectis-PLG-Tasks.git", "com.anotherealitysrl.reflectis-plg-tasks"),
+        ("https://github.com/AnotheRealitySrl/Reflectis-PLG-Graphs.git", "com.anotherealitysrl.reflectis-plg-graphs"),
     };
 
-    private static readonly string currentPackage = "com.anotherealitysrl.reflectis-plg-graphs"; //if this package 
-
-    static TasksDependenciesImporter()
+    //every time a package gets installed/modified this function gets called
+    /*static TasksDependenciesImporter()
     {
         Events.registeredPackages += OnRegisteredPackages;
+    }*/
+
+
+    [MenuItem("Reflectis/Import Tasks Packages")]
+    private static void ShowDependenciesPopup()
+    {
+        // Display the popup dialog to the user
+        if (EditorUtility.DisplayDialog("Install Git Packages",
+            "Do you want to install the task dependencies to Reflectis?",
+            "Install", "Cancel"))
+        {
+            InstallPackages();
+        }
     }
 
+    //every time the package writte in the condition is added then show the popup to install its dependencies.
     private static void OnRegisteredPackages(PackageRegistrationEventArgs args)
     {
         if (args.added.Count != 0)
@@ -33,17 +46,6 @@ public static class TasksDependenciesImporter
                     ShowDependenciesPopup();
                 }
             }
-        }
-    }
-
-    private static void ShowDependenciesPopup()
-    {
-        // Display the popup dialog to the user
-        if (EditorUtility.DisplayDialog("Install Git Packages",
-            "Do you want to install the task dependencies to Reflectis?",
-            "Install", "Cancel"))
-        {
-            InstallPackages();
         }
     }
 
