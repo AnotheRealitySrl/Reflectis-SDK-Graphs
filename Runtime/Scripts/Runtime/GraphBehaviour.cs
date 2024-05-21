@@ -47,10 +47,27 @@ namespace Reflectis.PLG.Graphs
             {
                 Type containerType = GetContainerType(node);
                 if (containerType == null)
+                {
+                    Debug.LogError("Returning null");
                     return null;
+                }
 
                 GameObject go = new GameObject(node.Name);
                 NodeBehaviour bhv = go.AddComponent(containerType) as NodeBehaviour;
+
+                /*
+                 * 
+                 * Handle task Nodes
+                 */
+                if (go.GetComponent<IGraphTaskNode>() != null)
+                {
+                    go.GetComponent<IGraphTaskNode>().AddDetector();
+                }
+                /*
+                * 
+                * 
+                */
+
                 bhv.Value = node;
                 go.transform.SetParent(GraphBehaviour.transform);
                 return bhv;
