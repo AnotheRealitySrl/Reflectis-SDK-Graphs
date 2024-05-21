@@ -209,8 +209,9 @@ namespace Reflectis.PLG.Graphs
             if (containersCount > 1)
             {
                 Debug.LogWarning($"{containersCount} containers have been found for type {nodeType.Name}." +
-                    $"Using the second one: {containerType.Name}");
-                containerType = availableContainerTypes[1];
+                    $"Using the first one: {containerType.Name}");
+
+                containerType = availableContainerTypes[0];
 
             }
 
