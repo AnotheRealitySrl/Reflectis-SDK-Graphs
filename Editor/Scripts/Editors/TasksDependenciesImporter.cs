@@ -16,13 +16,13 @@ public class TasksDependenciesImporter : EditorWindow //remove editor window if 
     };
 
     //every time a package gets installed/modified this function gets called
-    /*static TasksDependenciesImporter()
+    static TasksDependenciesImporter()
     {
         Events.registeredPackages += OnRegisteredPackages;
-    }*/
+    }
 
 
-    [MenuItem("Reflectis/Import Tasks Packages")]
+    //[MenuItem("Reflectis/Import Tasks Packages")] ---> to have the button
     private static void ShowDependenciesPopup()
     {
         // Display the popup dialog to the user
