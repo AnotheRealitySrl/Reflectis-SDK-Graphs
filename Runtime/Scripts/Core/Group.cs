@@ -4,7 +4,7 @@ using System.Linq;
 
 using UnityEngine;
 
-namespace Reflectis.PLG.Graphs
+namespace Reflectis.SDK.Graphs
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

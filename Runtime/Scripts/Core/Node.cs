@@ -8,7 +8,7 @@ using System.Reflection;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace Reflectis.PLG.Graphs
+namespace Reflectis.SDK.Graphs
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>
