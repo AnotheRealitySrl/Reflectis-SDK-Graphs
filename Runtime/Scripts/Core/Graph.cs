@@ -1,4 +1,4 @@
-﻿using Reflectis.SDK.Utilities;
+﻿using Reflectis.SDK.Core.Utilities;
 
 using System;
 using System.Collections.Generic;
