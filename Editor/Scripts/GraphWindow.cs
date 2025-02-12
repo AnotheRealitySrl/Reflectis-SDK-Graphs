@@ -9,7 +9,7 @@ using UnityEngine.UIElements;
 
 using Object = UnityEngine.Object;
 
-namespace Reflectis.PLG.Graphs.Editor
+namespace Reflectis.SDK.Graphs.Editor
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

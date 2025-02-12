@@ -1,10 +1,12 @@
 {
-    "name": "Reflectis.PLG.Graphs",
-    "rootNamespace": "",
+    "name": "Reflectis.SDK.Graphs.Editor",
+    "rootNamespace": "Reflectis.SDK.Graphs.Editor",
     "references": [
-        "GUID:6621723ab2f3cff4a8be0e8c1642af94"
+        "GUID:23c385269eb2e5044a0a2686aeeaf762"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

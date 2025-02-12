@@ -4,7 +4,7 @@ using UnityEngine;
 
 using GraphView = UnityEditor.Experimental.GraphView;
 
-namespace Reflectis.PLG.Graphs.Editor
+namespace Reflectis.SDK.Graphs.Editor
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

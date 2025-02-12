@@ -1,4 +1,4 @@
-﻿using Reflectis.SDK.Utilities;
+﻿using Reflectis.SDK.Core.Utilities;
 
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 
 using UnityEngine;
 
-namespace Reflectis.PLG.Graphs
+namespace Reflectis.SDK.Graphs
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

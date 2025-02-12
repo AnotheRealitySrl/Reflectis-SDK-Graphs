@@ -1,5 +1,5 @@
 ﻿
-namespace Reflectis.PLG.Graphs
+namespace Reflectis.SDK.Graphs
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>Container interface</summary>

@@ -1,4 +1,4 @@
-namespace Reflectis.PLG.Graphs
+namespace Reflectis.SDK.Graphs
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary> Interface for input ports that allow only one connection </summary>
