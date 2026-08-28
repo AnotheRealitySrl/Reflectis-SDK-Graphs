@@ -1,4 +1,4 @@
-namespace Reflectis.SDK.Graphs
+namespace Virtuademy.SDK.Graphs
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary> Interface for input ports that allow only one connection </summary>

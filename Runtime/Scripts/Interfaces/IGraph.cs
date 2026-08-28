@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Reflectis.SDK.Graphs
+namespace Virtuademy.SDK.Graphs
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

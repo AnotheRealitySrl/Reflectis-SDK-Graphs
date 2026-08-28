@@ -1,6 +1,6 @@
 {
-    "name": "Reflectis.SDK.Graphs.Editor",
-    "rootNamespace": "Reflectis.SDK.Graphs.Editor",
+    "name": "Virtuademy.SDK.Graphs.Editor",
+    "rootNamespace": "Virtuademy.SDK.Graphs.Editor",
     "references": [
         "GUID:23c385269eb2e5044a0a2686aeeaf762"
     ],

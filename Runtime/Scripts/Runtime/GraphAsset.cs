@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEditor;
 #endif
 
-namespace Reflectis.SDK.Graphs
+namespace Virtuademy.SDK.Graphs
 {
 
     ///////////////////////////////////////////////////////////////////////////

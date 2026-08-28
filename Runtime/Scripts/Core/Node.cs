@@ -1,4 +1,4 @@
-﻿using Reflectis.SDK.Core.Utilities;
+﻿using Virtuademy.SDK.Core.Utilities;
 
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Reflection;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace Reflectis.SDK.Graphs
+namespace Virtuademy.SDK.Graphs
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

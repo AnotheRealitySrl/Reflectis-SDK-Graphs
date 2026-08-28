@@ -4,7 +4,7 @@ using System.Linq;
 
 using UnityEngine;
 
-namespace Reflectis.SDK.Graphs
+namespace Virtuademy.SDK.Graphs
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

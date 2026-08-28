@@ -2,7 +2,7 @@
 
 using UnityEngine.UIElements;
 
-namespace Reflectis.SDK.Graphs.Editor
+namespace Virtuademy.SDK.Graphs.Editor
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

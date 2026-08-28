@@ -1,4 +1,4 @@
-namespace Reflectis.SDK.Graphs
+namespace Virtuademy.SDK.Graphs
 {
     public interface ITaskNode<TNode> : IGraphTaskNode, IContainer<TNode> where TNode : class
     {
