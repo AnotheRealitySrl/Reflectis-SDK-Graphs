@@ -11,5 +11,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/AnotheRealitySrl/Reflectis-Graphs"
+  },
+  "dependencies": {
+    "com.anotherealitysrl.spacs-utility": "1.0.0",
+    "com.anotherealitysrl.virtuademy-sdk-core": "16.0.0"
   }
 }
